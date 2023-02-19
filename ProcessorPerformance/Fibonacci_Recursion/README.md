@@ -40,7 +40,7 @@ More reading on Fibonacci or Hemachandra Numbers:
 * N. J. A. Sloane, The first 2000 Fibonacci numbers: Table of n, F(n) for n = 0 to
   2000 [here](https://oeis.org/A000045/b000045.txt)
 
-Fibonacci computational observations on different platforms:
+Fibonacci computational observations (by recursion) on different platforms are as below:
 
 
 | No. | Computed    | P #1 (seconds)    | P #2 (seconds) | P #3 (seconds)    | P #4 (seconds) |
