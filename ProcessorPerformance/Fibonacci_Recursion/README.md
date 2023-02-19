@@ -1,9 +1,13 @@
+# **Fibonacci Numbers (or Hemachandra Numbers)**
+
 D. E. Knuth writes: "Before Fibonacci wrote his work, the sequence F_{n} had already been
 discussed by Indian scholars, who had long been interested in rhythmic patterns that are
 formed from one-beat and two-beat notes. The number of such rhythms having n beats altogether
 is F_{n+1}; therefore both Gopāla (before 1135) and Hemachandra (c. 1150) mentioned the
 numbers 1, 2, 3, 5, 8, 13, 21, ... explicitly." (source The Art of Computer Programming:
 Fundamental algorithms Vol. 1, 2nd ed. by Donald Knuth).
+
+# **Fibonacci: by Recursion**
 
 If you played around with calculating Fibonacci Numbers by recursion, you might
 have noticed that the bigger the argument (or number) you provide, the longer the function
@@ -16,6 +20,14 @@ The following figure shows the so-called **recursion tree** corresponding to an 
 
 We tested this on different platforms; and also the results get better with time (as better
 processors get available) as shown in table below.
+
+# **Fibonacci: by Memoization [doing above the faster way! ;) ]**
+
+In computing, memoization or memoisation is an optimization technique used primarily to 
+speed up computer programs by storing the results of expensive function calls and returning 
+the cached result when the same inputs occur again.
+
+This program is [here]()
 
 I'll keep adding more results as tested on different platforms. Please feel free to send
 results from your machine too (and please don't forget to add your machine configurations).
@@ -87,7 +99,7 @@ Fibonacci computational observations on different platforms:
 | 53  | 53316291173 | 23300.53 (6.47 h) |                | 18562.78 (5.16 h) |                |
 | 54  | 86267571272 |                   |                | 29768.01 (8.26 h) |                |
 
-# **Legend**
+## **Legend**
 
 
 | Platform | Details                                                        |
