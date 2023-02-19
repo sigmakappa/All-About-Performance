@@ -27,6 +27,7 @@ More reading on Fibonacci or Hemachandra Numbers:
 * Fibonacci Numbers on the Online encyclopedia of Integer Sequences can be read [here](https://oeis.org/A000045)
 * N. J. A. Sloane, The first 2000 Fibonacci numbers: Table of n, F(n) for n = 0 to 2000 [here](https://oeis.org/A000045/b000045.txt)
 
+Fibonacci computational observations on different platforms: 
 
 | No. | Computed    | P #1 (seconds)    | P #2 (seconds) | P #3 (seconds)    |
 | --- | ----------- | ----------------- | -------------- | ----------------- |
