@@ -12,7 +12,7 @@ fib(20) finishes instantly, fib(30) takes about a second, and fib(40) takes like
 
 The following figure shows the so-called **recursion tree** corresponding to an execution of `fib(6)`:
 
-![fib(6)](https://github.com/sigmakappa/All-About-Performance/blob/main/ProcessorPerformance/Fibonacci_Recursion/files/tree.png))
+![fib(6)](https://github.com/sigmakappa/All-About-Performance/blob/main/ProcessorPerformance/Fibonacci_Recursion/files/tree.png)
 
 We tested this on different platforms; and also the results get better with time (as better
 processors get available) as shown in table below.
