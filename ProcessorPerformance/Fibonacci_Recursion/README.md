@@ -96,3 +96,5 @@ Fibonacci computational observations on different platforms:
 | P #2     | Intel i7 1165G7 11th Generation 32G RAM Windows 10 Enterprise  |
 | P #3     | Intel i5 8250U, 8th Generation 8G RAM Windows 10 Pro           |
 | P #4     | Intel i3 11th Generation 8G RAM Windows 11 Home (Coming soon!) |
+
+NOTE: All observations based on Python 3.8/3.9.
