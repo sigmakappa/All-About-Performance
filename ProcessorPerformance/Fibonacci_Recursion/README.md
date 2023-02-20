@@ -37,9 +37,9 @@ Thanks in advance.
 More reading on Fibonacci or Hemachandra Numbers:
 
 * Wikipaedia [here](https://en.wikipedia.org/wiki/Fibonacci_number#Computer_science).
-* Fibonacci Numbers on the Online encyclopedia of Integer Sequences can be read [here](https://oeis.org/A000045)
+* Fibonacci Numbers on the Online encyclopedia of Integer Sequences can be read [here](https://oeis.org/A000045).
 * N. J. A. Sloane, The first 2000 Fibonacci numbers: Table of n, F(n) for n = 0 to
-  2000 [here](https://oeis.org/A000045/b000045.txt)
+  2000 [here](https://oeis.org/A000045/b000045.txt).
 
 Fibonacci computational observations (by recursion) on different platforms are as below:
 
