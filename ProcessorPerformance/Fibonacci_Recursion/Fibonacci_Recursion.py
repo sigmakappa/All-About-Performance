@@ -32,7 +32,7 @@ def fib(n):
     return t
 
 
-for n in range(40, 55, 1):
+for n in range(1, 56, 1):
     t0 = time.perf_counter()
     printLog(
         str("Running for : " + str(n) + "\tStart Time : " + time.strftime("%a, %d %b %Y %H:%M:%S", time.localtime())))
