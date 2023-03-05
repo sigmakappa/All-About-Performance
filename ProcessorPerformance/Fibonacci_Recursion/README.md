@@ -105,11 +105,11 @@ Fibonacci computational observations (by recursion) on different platforms are a
 
 
 | Platform | Details                                                                                           |
-| -------- | ------------------------------------------------------------------------------------------------- |
+|----------| ------------------------------------------------------------------------------------------------- |
 | P #1     | Intel i3 2375M @ 1.5GHz 2nd Generation 8G RAM Windows 7 Ultimate (* Python 3.3)                   |
 | P #2     | Intel i7 7880 7th Generation 16G RAM Windows 10 Enterprise                                        |
 | P #3     | Intel i7 1165G7 11th Generation 32G RAM Windows 10 Enterprise                                     |
-| P #5     | Intel i5 8250U, 8th Generation 8G RAM Windows 10 Pro                                              |
+| P #4     | Intel i5 8250U, 8th Generation 8G RAM Windows 10 Pro                                              |
 | P #5     | Intel i3 1115G4 @ 3.00GHz 11th Generation 16G RAM Windows 11 Pro Version 22H2 OS build 22621.1265 |
 
 NOTE: All observations based on Python 3.8/3.9 (except stated otherwise).
