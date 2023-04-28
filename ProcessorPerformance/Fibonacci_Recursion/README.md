@@ -106,7 +106,7 @@ Fibonacci computational observations (by recursion) on different platforms are a
 
 | Platform | Details                                                                                           |
 |----------| ------------------------------------------------------------------------------------------------- |
-| P #1     | Intel i3 2375M @ 1.5GHz 2nd Generation 8G RAM Windows 7 Ultimate (* Win 7 suppoert limited till Python 3.3)                   |
+| P #1     | Intel i3 2375M @ 1.5GHz 2nd Generation 8G RAM Windows 7 Ultimate (* Win 7 support limited till Python 3.3)                   |
 | P #2     | Intel i7 7880 7th Generation 16G RAM Windows 10 Enterprise                                        |
 | P #3     | Intel i7 1165G7 11th Generation 32G RAM Windows 10 Enterprise                                     |
 | P #4     | Intel i5 8250U, 8th Generation 8G RAM Windows 10 Pro                                              |
