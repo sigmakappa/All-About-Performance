@@ -33,6 +33,7 @@ This will execute the performance test and spit out the results on your screen. 
 ```
 python Fibonacci_Recursion.py > results.txt
 ```
+Also, check out how fast different platforms can calculate the Fibonacci sequence using recursion [here](https://github.com/sigmakappa/All-About-Performance/blob/main/ProcessorPerformance/Fibonacci_Recursion/README.md).
 
 ### Flask API
 
