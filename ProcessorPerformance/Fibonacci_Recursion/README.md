@@ -118,6 +118,11 @@ NOTE: All observations based on Python 3.8/3.9 (except stated otherwise).
 
 Yours truly has an old 2013 machine (still working, issues mainly in battery and hence the power backup). I used this to record how the Fibonacci
 calculations do perform on different Operating Systems (supporting this [here](https://askubuntu.com/questions/1148999/does-ubuntu-run-faster-than-windows-10)?).
+
+In general, Ubuntu tends to be faster and more lightweight than Windows because it is a Linux-based operating system that is designed to be 
+efficient and optimized for performance. Ubuntu typically requires less system resources than Windows, which can result in faster boot times,
+smoother application performance, and more responsive system performance overall.
+
 I also know its wrong comparing apples with oranges (Win7+Python3.3 v/s Ubuntu22+Python3.10). But still: :apple: v/s :orange: !!!
 Also, Ubuntu/PopOS gave this old machine a [new life](https://www.makeuseof.com/tag/6-lightweight-linux-distributions-give-pc-lease-life/).
 
