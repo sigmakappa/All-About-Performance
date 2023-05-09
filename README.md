@@ -40,7 +40,7 @@ Also, check out how fast different platforms can calculate the Fibonacci sequenc
 If you wanna test the performance of a Flask API, head to the `Flask_Application_Performance` directory and start the server with this command:
 
 ```
-python app.py
+python application.py
 ```
 
 Once the server is up and running, you can send requests to the API with this command in a separate terminal window:
@@ -52,7 +52,7 @@ python application.py
 This will execute the performance test and show you the results. And you guessed it, you can save the results to a file with:
 
 ```
-python test_api.py > results.txt
+python application.py > results.txt
 ```
 
 ## Contributing
