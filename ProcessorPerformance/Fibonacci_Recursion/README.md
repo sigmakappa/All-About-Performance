@@ -193,8 +193,8 @@ Numbers helping the above as below:
 | **Platform** | **Details**                                      |
 | ------------ | ------------------------------------------------ |
 | OS #1        | Windows 7 Ultimate (Python 3.3)                  |
-| OS #2        | Ubuntu 22.04.2 LTS Jammy Jellyfish (Python 3.10) |
-| OS #3        | Pop!_OS 22.04 LTS (Python 3.10)                  |
+| OS #2        | Ubuntu 22.04.2 LTS Jammy Jellyfish (Kernel: Linux 5.15.0-25-generic x86_64) (Python 3.10) |
+| OS #3        | Pop!_OS 22.04 LTS (Kernel: Linux 6.2.6-76060206-generic) (Python 3.10)                  |
 | -            | -                                                |
 | **Hardware** | Intel i3 2375M @ 1.5GHz 2nd Generation 8G RAM    |
 
