@@ -104,14 +104,14 @@ Fibonacci computational observations (by recursion) on different platforms are a
 ### **Legend**
 
 
-| **Platform** | **Details**                                                                                                                                                    |
-| ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| P #1         | Intel i3 2375M @ 1.5GHz 2nd Generation 8G RAM Windows 7 Ultimate (* Win 7 support limited till Python 3.3)                                                     |
-| P #2         | Intel i7 7880 7th Generation 16G RAM Windows 10 Enterprise (Python 3.6)                                                                                        |
-| P #3         | Intel i7 1165G7 11th Generation 32G RAM Windows 10 Enterprise (Python 3.9)                                                                                    |
-| P #4         | Intel i5 8250U, 8th Generation 8G RAM Windows 10 Pro (Python 3.9)                                                                                             |
-| P #5         | Intel i3 1115G4 @ 3.00GHz 11th Generation 16G RAM Windows 11 Pro Version 22H2 OS build 22621.1265 (Python 3.9)                                                |
-| P #6         | Intel i7 8550U CPU @ 1.80GHz 8th Generation 12G RAM, Arcolinux Zen Kernel Edition (courtesy [Aniruddha Kibey](https://github.com/kaniruddha)) (Python 3.11.3) |
+| **Platform** | **Details**                                                                                                                                                |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| P #1         | Intel i3 2375M @ 1.5GHz 2nd Generation 8G RAM Windows 7 Ultimate (* Win 7 support limited till Python 3.3)                                                 |
+| P #2         | Intel i7 7880 7th Generation 16G RAM Windows 10 Enterprise (Python 3.6)                                                                                    |
+| P #3         | Intel i7 1165G7 11th Generation 32G RAM Windows 10 Enterprise (Python 3.9)                                                                                |
+| P #4         | Intel i5 8250U, 8th Generation 8G RAM Windows 10 Pro (Python 3.9)                                                                                         |
+| P #5         | Intel i3 1115G4 @ 3.00GHz 11th Generation 16G RAM Windows 11 Pro Version 22H2 OS build 22621.1265 (Python 3.9)                                            |
+| P #6         | Intel i7 8550U @ 1.80GHz 8th Generation 12G RAM, Arcolinux Zen Kernel Edition (courtesy [Aniruddha Kibey](https://github.com/kaniruddha)) (Python 3.11.3) |
 
 ## **Fibonacci computational observations (by recursion) on same hardware but different Operating Systems**
 
