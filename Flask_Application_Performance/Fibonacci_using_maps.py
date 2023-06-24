@@ -1,5 +1,8 @@
 import time
 
+import sys
+print("Recursion Limit:", sys.getrecursionlimit())
+
 start = time.perf_counter()
 
 alreadyknown = {0: 0, 1: 1}
@@ -13,7 +16,7 @@ def fib(n):
     return alreadyknown[n]
 
 
-print("Fib 200 :", fib(200))
+print("Fib 10 :", fib(10))
 print(alreadyknown)
 
 end = time.perf_counter()
