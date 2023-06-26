@@ -12,6 +12,7 @@ ready to test your server's performance based on the hardware you are using!
 - [Getting Started](#getting-started)
 - [What happens when the test is run?](#what-happens-when-the-test-is-run)
 - [Analyzing Performance Results](#analyzing-performance-results)
+- [Observations on different platforms](#observations-on-different-platforms)
 - [Contributing](#contributing)
 - [License](#license)
 
