@@ -75,7 +75,8 @@ as the Flask Application Server under test and the other as JMeter testing machi
    machine: `git clone https://github.com/sigmakappa/All-About-Performance.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Run the Flask
-   application [file here](https://github.com/sigmakappa/All-About-Performance/blob/main/ServerPerformance/Flask_Application_Performance/application.py) as:<br><br>
+   application [file here](https://github.com/sigmakappa/All-About-Performance/blob/main/ServerPerformance/Flask_Application_Performance/application.py)
+   as:<br><br>
    ```
    python application.py > logs.txt
    ```
@@ -95,8 +96,8 @@ as the Flask Application Server under test and the other as JMeter testing machi
 
 2. The test details and benchmarked load in this test are as below:
     1. Pre-configured in the attached
-       JMeter [jmx file](https://github.com/sigmakappa/All-About-Performance/blob/main/ServerPerformance/Flask_Application_Performance/Test_Scripts/JMeter/JMeter_Test_Script.jmx) along-with as in the screenshot below:<br><br>
-       
+       JMeter [jmx file](https://github.com/sigmakappa/All-About-Performance/blob/main/ServerPerformance/Flask_Application_Performance/Test_Scripts/JMeter/JMeter_Test_Script.jmx)
+       along-with as in the screenshot below:<br><br>
        ![setting up test threads](https://github.com/sigmakappa/All-About-Performance/blob/main/ServerPerformance/Flask_Application_Performance/files/jmx_setting_up_threads.png)<br>
 
     2. APIs already configured:
@@ -121,11 +122,12 @@ limitations.
 ## Analyzing Performance Results
 
 📊 Once you have completed the performance tests, it's time to dive into the data! Use the gathered information,
-including response times, throughput, and error rates, to assess the performance of your flask web server. Unleash the power
-of visualization tools like graphs and charts to uncover hidden insights, spot performance patterns, and optimize your
-server like a true champion!
+including response times, throughput, and error rates, to assess the performance of your flask web server. Unleash the
+power of visualization tools like graphs and charts to uncover hidden insights, spot performance patterns, and optimize 
+your server like a true champion!
 
 ## Observations on different platforms
+
 :mag: Now here is the most interseting part: the observed numbers on different platforms.
 
 |              | **Details**                                                   |
@@ -133,7 +135,6 @@ server like a true champion!
 | **Platform** | Intel i7 1165G7 11th Generation 32G RAM Windows 10 Enterprise |
 | **Python**   | Python 3.9                                                    |
 | **Flask**    | 1.1.2                                                         |
-
 
 | **Label** | **# Samples** | **Average** | **Median** | **90% Line** | **95% Line** | **99% Line** | **Min** | **Max** | **Error %** | **Throughput** | **Received KB/sec** | **Sent KB/sec** |
 |-----------|---------------|-------------|------------|--------------|--------------|--------------|---------|---------|-------------|----------------|---------------------|-----------------|
@@ -149,7 +150,6 @@ server like a true champion!
 | **Python**   | Python 3.11.3                                                 |
 | **Flask**    | 2.3.2                                                         |
 
-
 | **Label** | **# Samples** | **Average** | **Median** | **90% Line** | **95% Line** | **99% Line** | **Min** | **Max** | **Error %** | **Throughput** | **Received KB/sec** | **Sent KB/sec** |
 |-----------|---------------|-------------|------------|--------------|--------------|--------------|---------|---------|-------------|----------------|---------------------|-----------------|
 | Fibonacci | 100000        | 30          | 30         | 34           | 42           | 59           | 15      | 391     | 0.000%      | 199.90564      | 59.96               | 62.45           |
@@ -158,12 +158,11 @@ server like a true champion!
 
 ***************************************************************************************************************************
 
-|              | **Details**                                                   |
-|--------------|---------------------------------------------------------------|
+|              | **Details**     |
+|--------------|-----------------|
 | **Platform** | More to come... |
-| **Python**   |                                                |
-| **Flask**    |                                                       |
-
+| **Python**   |                 |
+| **Flask**    |                 |
 
 ## Contributing
 
