@@ -1,43 +1,3 @@
-Fibonacci computational observations (by recursion) on different platforms are as below:
-
-|              | **Details**                                                   |
-|--------------|---------------------------------------------------------------|
-| **Platform** | Intel i7 1165G7 11th Generation 32G RAM Windows 10 Enterprise |
-| **Python**   | Python 3.9                                                    |
-| **Flask**    | 1.1.2                                                         |
-
-aggregate_py_3.9_flask_1.1.2_i7_1165G7_32G_20Kusers_RU_500s_LoopCount_5
-
-| **Label** | **# Samples** | **Average** | **Median** | **90% Line** | **95% Line** | **99% Line** | **Min** | **Max** | **Error %** | **Throughput** | **Received KB/sec** | **Sent KB/sec** |
-|-----------|---------------|-------------|------------|--------------|--------------|--------------|---------|---------|-------------|----------------|---------------------|-----------------|
-| Fibonacci | 100000        | 12          | 9          | 18           | 24           | 59           | 4       | 1270    | 0.000%      | 199.97440      | 56.32               | 62.47           |
-| IsPrime   | 100000        | 11          | 9          | 18           | 24           | 56           | 4       | 1076    | 0.000%      | 199.97480      | 38.96               | 63.84           |
-| **TOTAL** | 200000        | 11          | 9          | 18           | 24           | 57           | 4       | 1270    | 0.000%      | 399.94401      | 95.29               | 126.31          |
-
-|              | **Details**                                                   |
-|--------------|---------------------------------------------------------------|
-| **Platform** | Intel i7 1165G7 11th Generation 32G RAM Windows 10 Enterprise |
-| **Python**   | Python 3.11.3                                                 |
-| **Flask**    | 2.3.2                                                         |
-
-aggregate_py_3.11.3_flask_2.3.2_i7_1165G7_32G_20Kusers_RU_500s_LoopCount_5
-
-| **Label** | **# Samples** | **Average** | **Median** | **90% Line** | **95% Line** | **99% Line** | **Min** | **Max** | **Error %** | **Throughput** | **Received KB/sec** | **Sent KB/sec** |
-|-----------|---------------|-------------|------------|--------------|--------------|--------------|---------|---------|-------------|----------------|---------------------|-----------------|
-| Fibonacci | 100000        | 30          | 30         | 34           | 42           | 59           | 15      | 391     | 0.000%      | 199.90564      | 59.96               | 62.45           |
-| IsPrime   | 100000        | 31          | 31         | 34           | 43           | 60           | 15      | 390     | 0.000%      | 199.91084      | 42.66               | 63.82           |
-| **TOTAL** | 200000        | 31          | 31         | 34           | 43           | 60           | 15      | 391     | 0.000%      | 399.79850      | 102.62              | 126.26          |
-
-### **Legend**
-
-## **Instructions for carrying out the above experiment:**
-
-1. While the process is running, make sure nothing else is executed/running by the user that takes up the processor.
-2. The observations can easily be obtained by running the experiment for one weekend on a machine (~48 hours) (*
-   excpetion being my Intel Gen2 Processor)
-
-##########################################iewriooi##############################################
-
 # Python Flask Web Server Performance Testing
 
 🚀 Welcome to the Python Flask Web Server Performance Testing repository!
@@ -50,7 +10,7 @@ ready to test your server's performance based on the hardware you are using!
 - [Understanding Web Server Performance](#understanding-web-server-performance)
 - [What is Flask](#what-is-flask)
 - [Getting Started](#getting-started)
-- [What happens when the test is run?](#what-happen-when-the-test-is-run)
+- [What happens when the test is run?](#what-happens-when-the-test-is-run)
 - [Analyzing Performance Results](#analyzing-performance-results)
 - [Contributing](#contributing)
 - [License](#license)
@@ -114,13 +74,12 @@ as the Flask Application Server under test and the other as JMeter testing machi
    machine: `git clone https://github.com/sigmakappa/All-About-Performance.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Run the Flask
-   application <a href="https://github.com/sigmakappa/All-About-Performance/blob/main/ServerPerformance/Flask_Application_Performance/application.py" target="_blank">file here</a> as:
+   application [file here](https://github.com/sigmakappa/All-About-Performance/Flask_Application_Performance/application.py) as:<br><br>
    ```
    python application.py > logs.txt
    ```
    This above would run the application as below:<br><br>
-   ![running the application](https://github.com/sigmakappa/All-About-Performance/blob/main/Flask_Application_Performance/files/running_application.png)
-   🔴🔴🔴🔴🔴🔴🔴🔴
+   ![running the application](https://github.com/sigmakappa/All-About-Performance/blob/main/ServerPerformance/Flask_Application_Performance/files/running_application.png)
 
 ### B. On the Testing machine:
 
@@ -128,25 +87,22 @@ as the Flask Application Server under test and the other as JMeter testing machi
     * Have Java 11+ installed.
     * Download JMeter [here](https://jmeter.apache.org/download_jmeter.cgi)).
     * Load the
-      given [jmx file](https://github.com/sigmakappa/All-About-Performance/blob/56ecd708b5c022b966697e1e03971decca957fb2/Flask_Application_Performance/Test_Scripts/JMeter/JMeter_Test_Script.jmx)
-      in JMeter.🔴🔴🔴🔴🔴🔴🔴🔴
+      given [jmx file](https://github.com/sigmakappa/All-About-Performance/blob/main/ServerPerformance/Flask_Application_Performance/Test_Scripts/JMeter/JMeter_Test_Script.jmx)
+      in JMeter.
     * Change the target IP address here (as obtained in A.3 above):<br><br>
-      ![changing address and port](https://github.com/sigmakappa/All-About-Performance/blob/main/Flask_Application_Performance/files/changing_address_port.png)
-      🔴🔴🔴🔴🔴🔴🔴🔴<br>
+      ![changing address and port](https://github.com/sigmakappa/All-About-Performance/blob/main/ServerPerformance/Flask_Application_Performance/files/changing_address_port.png)<br>
 
 2. The test details and benchmarked load in this test are as below:
     1. Pre-configured in the attached
-       JMeter [jmx file](https://github.com/sigmakappa/All-About-Performance/blob/56ecd708b5c022b966697e1e03971decca957fb2/Flask_Application_Performance/Test_Scripts/JMeter/JMeter_Test_Script.jmx)
-       🔴🔴🔴🔴🔴🔴🔴🔴 along-with as in the screenshot below:<br><br>
-       ![setting up test threads](https://github.com/sigmakappa/All-About-Performance/blob/main/Flask_Application_Performance/files/jmx_setting_up_threads.png)
-       🔴🔴🔴🔴🔴🔴🔴🔴<br>
+       JMeter [jmx file](https://github.com/sigmakappa/All-About-Performance/blob/main/ServerPerformance/Flask_Application_Performance/Test_Scripts/JMeter/JMeter_Test_Script.jmx) along-with as in the screenshot below:<br><br>
+       
+       ![setting up test threads](https://github.com/sigmakappa/All-About-Performance/blob/main/ServerPerformance/Flask_Application_Performance/files/jmx_setting_up_threads.png)<br>
 
     2. APIs already configured:
         * **Fibonacci**: Takes a random number between 10 and 1000 as input and returns its corresponding Fibonacci
           Number (
           calculating Fibonacci number
-          using [Dictionaries](https://github.com/sigmakappa/All-About-Performance/blob/56ecd708b5c022b966697e1e03971decca957fb2/ProcessorPerformance/Fibonacci_Recursion/Fibonacci_using_maps.py))
-          🔴🔴🔴🔴🔴🔴🔴🔴
+          using [Dictionaries](https://github.com/sigmakappa/All-About-Performance/blob/main/ServerPerformance/Flask_Application_Performance/Fibonacci_using_maps.py))
         * **isPrime**: Takes a random number between 1000 and 10000000 and returns whether the number is prime or not.
 
     3. 20,000 Users to start with.
@@ -154,26 +110,59 @@ as the Flask Application Server under test and the other as JMeter testing machi
        seconds).
     5. Loop Count of 5 (i.e. we'd have a 5X the above users in 500 seconds i.e. 100,000 users total in 500 seconds).
 
-## What happen when the test is run?
+## What happens when the test is run?
 
-🏃‍♀️ To unleash the power of performance testing, execute the corresponding test script provided in the repository using
-your preferred test runner or command-line tool. These tests will simulate various loads and measure key performance
-metrics. Brace yourself for the ultimate performance showdown!
-
-![Request_Response](https://github.com/sigmakappa/All-About-Performance/blob/main/Flask_Application_Performance/files/Request_Response.jpg)
-🔴🔴🔴🔴🔴🔴🔴🔴<br>
+![Request_Response](https://github.com/sigmakappa/All-About-Performance/blob/main/ServerPerformance/Flask_Application_Performance/files/Request_Response.jpg)<br>
 
 Make sure to monitor system resource utilization during testing to identify any potential bottlenecks or resource
 limitations.
 
 ## Analyzing Performance Results
 
-<a href="http://example.com/" target="_blank">Hello, world!</a>
-
 📊 Once you have completed the performance tests, it's time to dive into the data! Use the gathered information,
-including response times, throughput, and error rates, to assess the performance of your web server. Unleash the power
+including response times, throughput, and error rates, to assess the performance of your flask web server. Unleash the power
 of visualization tools like graphs and charts to uncover hidden insights, spot performance patterns, and optimize your
 server like a true champion!
+
+## Observations on different platforms
+:mag: Now here is the most interseting part: the observed numbers on different platforms.
+
+|              | **Details**                                                   |
+|--------------|---------------------------------------------------------------|
+| **Platform** | Intel i7 1165G7 11th Generation 32G RAM Windows 10 Enterprise |
+| **Python**   | Python 3.9                                                    |
+| **Flask**    | 1.1.2                                                         |
+
+
+| **Label** | **# Samples** | **Average** | **Median** | **90% Line** | **95% Line** | **99% Line** | **Min** | **Max** | **Error %** | **Throughput** | **Received KB/sec** | **Sent KB/sec** |
+|-----------|---------------|-------------|------------|--------------|--------------|--------------|---------|---------|-------------|----------------|---------------------|-----------------|
+| Fibonacci | 100000        | 12          | 9          | 18           | 24           | 59           | 4       | 1270    | 0.000%      | 199.97440      | 56.32               | 62.47           |
+| IsPrime   | 100000        | 11          | 9          | 18           | 24           | 56           | 4       | 1076    | 0.000%      | 199.97480      | 38.96               | 63.84           |
+| **TOTAL** | 200000        | 11          | 9          | 18           | 24           | 57           | 4       | 1270    | 0.000%      | 399.94401      | 95.29               | 126.31          |
+
+***************************************************************************************************************************
+
+|              | **Details**                                                   |
+|--------------|---------------------------------------------------------------|
+| **Platform** | Intel i7 1165G7 11th Generation 32G RAM Windows 10 Enterprise |
+| **Python**   | Python 3.11.3                                                 |
+| **Flask**    | 2.3.2                                                         |
+
+
+| **Label** | **# Samples** | **Average** | **Median** | **90% Line** | **95% Line** | **99% Line** | **Min** | **Max** | **Error %** | **Throughput** | **Received KB/sec** | **Sent KB/sec** |
+|-----------|---------------|-------------|------------|--------------|--------------|--------------|---------|---------|-------------|----------------|---------------------|-----------------|
+| Fibonacci | 100000        | 30          | 30         | 34           | 42           | 59           | 15      | 391     | 0.000%      | 199.90564      | 59.96               | 62.45           |
+| IsPrime   | 100000        | 31          | 31         | 34           | 43           | 60           | 15      | 390     | 0.000%      | 199.91084      | 42.66               | 63.82           |
+| **TOTAL** | 200000        | 31          | 31         | 34           | 43           | 60           | 15      | 391     | 0.000%      | 399.79850      | 102.62              | 126.26          |
+
+***************************************************************************************************************************
+
+|              | **Details**                                                   |
+|--------------|---------------------------------------------------------------|
+| **Platform** | More to come... |
+| **Python**   |                                                |
+| **Flask**    |                                                       |
+
 
 ## Contributing
 
