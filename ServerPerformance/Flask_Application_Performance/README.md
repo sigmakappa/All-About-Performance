@@ -111,11 +111,10 @@ as the Flask Application Server under test and the other as JMeter testing machi
 ### A. On the Server machine:
 
 1. Clone this repository to the server
-   machine: `git clone https://github.com/YOUR-USERNAME/flask-performance-testing.git` 🔴🔴🔴🔴🔴🔴🔴🔴
+   machine: `git clone https://github.com/sigmakappa/All-About-Performance.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Run the Flask
-   application [(file here)](https://github.com/sigmakappa/All-About-Performance/Flask_Application_Performance/application.py)
-   🔴🔴🔴🔴🔴🔴🔴🔴 as:
+   application <a href="https://github.com/sigmakappa/All-About-Performance/blob/main/ServerPerformance/Flask_Application_Performance/application.py" target="_blank">file here</a> as:
    ```
    python application.py > logs.txt
    ```
