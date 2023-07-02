@@ -20,7 +20,7 @@ And with that, you're ready to start testing like a boss!
 
 ## Running Performance Tests
 
-### Fibonacci Recursion
+### [Fibonacci Recursion](/ProcessorPerformance/Fibonacci_Recursion/README.md)
 
 Want to know how fast your computer can calculate the Fibonacci sequence using recursion? Yeah, we do too! Navigate to the `Fibonacci_Recursion` directory and run this command:
 
@@ -35,7 +35,7 @@ python Fibonacci_Recursion.py > results.txt
 ```
 Also, check out how fast different platforms can calculate the Fibonacci sequence using recursion [here](https://github.com/sigmakappa/All-About-Performance/blob/main/ProcessorPerformance/Fibonacci_Recursion/README.md).
 
-### Flask API
+### [Flask API](/ServerPerformance/Flask_Application_Performance/README.md)
 
 If you wanna test the performance of a Flask API, head to the `Flask_Application_Performance` directory and start the server with this command:
 
