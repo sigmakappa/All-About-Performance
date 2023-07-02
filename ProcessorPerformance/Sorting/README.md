@@ -32,10 +32,10 @@ pip install -r requirements.txt
 
 ## Comparison of Sorting Algorithms
 
-We've got a bunch of sorting algorithms in our arsenal, and they're all ready to groove. Each algorithm struts its
+We've got a bunch of sorting algorithms [^3] in our arsenal, and they're all ready to groove. Each algorithm struts its
 stuff in its own module, making it easy to test and compare their performance.
 
-Check out these below performant algorithms in this section (well others **_stuck-off_** were not too performant in
+Check out these below performant algorithms [^4] in this section (well others **_stuck-off_** were not too performant in
 comparison hence were not considered for this test :beers:):
 
 |        **Name**        | **Best Case** |   **Average Case**    |             **Worst Case**              | **Memory** |     **Method**      | 
@@ -77,7 +77,7 @@ original array after each digit has been sorted.
 
 Source: [^2]
 
-<mark>**_As seed data this test has descending ordered list of 10M numbers which is required to be sorted in
+<mark>**Seed data for this test has descending ordered list of 10M numbers which is required to be sorted in
 ascending order (which is the worst case scenario for these sorting algorithms)._**</mark>
 
 ## Running the Test
