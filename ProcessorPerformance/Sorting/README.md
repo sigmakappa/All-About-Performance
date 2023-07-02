@@ -16,8 +16,6 @@ enthusiast, you've come to the right place.
 - [License](#license)
 - [External Links](#external-links)
 
-
-
 ## Getting Started
 
 Before we dive into the testing extravaganza, make sure you have the following prerequisites:
@@ -37,22 +35,24 @@ pip install -r requirements.txt
 We've got a bunch of sorting algorithms in our arsenal, and they're all ready to groove. Each algorithm struts its
 stuff in its own module, making it easy to test and compare their performance.
 
-Check out these below algorithms:
+Check out these below performant algorithms in this section (well others were not too performant in comparison :
+sunglasses:):
 
-- Bubble Sort
-- Insertion Sort
-- Selection Sort
+- Timsort
 - Merge Sort
-- Quick Sort
+- Shell Sort
+- Heap Sort
+- Radix Sort
 
-Get ready to witness some algorithmic magic on the dance floor!
+**_As seed data this test has descending ordered list (1M numbers long) which is required to be sorted in ascending
+order (which is the worst case scenario for these sorting algorithms)._**
 
 ## Running Performance Tests
 
-When you're ready to roll, head over to the module of the sorting algorithm you want to test. Run this sweet command:
+When you're ready to roll, head over to the main folder i.e. `Sorting` and run this sweet command:
 
 ```
-python calling_sorts.py
+python calling_sorts.py > sorting_observations.txt
 ```
 
 You'll see the algorithm in action, doing its thing and showing off its moves right there in the console. We'll give you
@@ -74,7 +74,7 @@ algorithms. Brace yourself for a wild ride!
 It's a funky dance of fetching, decoding, executing, memory access, and write back that keeps your algorithms grooving
 to the beat!
 
-## Comparison of Algorithms<sup>[1]</sup>
+## Comparison of Algorithms
 
 |    **Name**    | **Best Case** |   **Average Case**    |    **Worst Case**     | **Memory** |     **Method**      | 
 |:--------------:|:-------------:|:---------------------:|:---------------------:|:----------:|:-------------------:|
@@ -83,25 +83,33 @@ to the beat!
 | **Shell Sort** |  **_nlogn_**  | **_n<sup>4/3</sup>_** | **_n<sup>3/2</sup>_** |  **_1_**   |      Insertion      |
 | **Heap Sort**  |  **_nlogn_**  |      **_nlogn_**      |      **_nlogn_**      |  **_1_**   |      Selection      |
 
+Source: [^1]
+
 #### Radix Sort
 
-* Time Complexity:
+* **Time Complexity:**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Radix sort is a non-comparative integer sorting algorithm that sorts
 data with integer keys by grouping the keys by the individual digits which share the same significant position and
-value. It has a time complexity of **_O(d * (n + b))_**, where **_d_** is the number of digits, **_n_** is the number of
-elements, and **_b_** is the base of the number system being used.
+value. It has a time complexity of **_O(d * (n + b))_**, where:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* **_d_** is the number of digits,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* **_n_** is the number of elements, and<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* **_b_** is the base of the number system being used.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In practical implementations, radix sort is often faster than other
 comparison-based sorting algorithms, such as quicksort or merge sort, for large datasets, especially when the keys have
 many digits. However, its time complexity grows linearly with the number of digits, and so it is not as efficient for
 small datasets.
 
-* Space Complexity:
+* **Space Complexity:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Radix sort also has a space complexity of **_O(n + b)_**, where **_n_**
-is the number of elements and **_b_** is the
-base of the number system. This space complexity comes from the need to create buckets for each digit value and to copy
-the elements back to the original array after each digit has been sorted.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Radix sort also has a space complexity of **_O(n + b)_**, where:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* **_n_** is the number of elements and<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* **_b_** is the base of the number system.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This space complexity comes from the need to create buckets for each
+digit value and to copy the elements back to the
+original array after each digit has been sorted.
+
+Source: [^2]
 
 ## Performance Numbers
 
@@ -111,8 +119,6 @@ the elements back to the original array after each digit has been sorted.
 | **Merge Sort** |  **_nlogn_**  |      **_nlogn_**      |      **_nlogn_**      |  **_n_**   |       Merging       |
 | **Shell Sort** |  **_nlogn_**  | **_n<sup>4/3</sup>_** | **_n<sup>3/2</sup>_** |  **_1_**   |      Insertion      |
 | **Heap Sort**  |  **_nlogn_**  |      **_nlogn_**      |      **_nlogn_**      |  **_1_**   |      Selection      |
-
-
 
 ## Contributing
 
@@ -130,12 +136,12 @@ Let's keep this party going and make this repository even funkier!
 ## License
 
 This repository is licensed under the MIT license, so you can shake, shuffle, and spin it however you like. Check out
-the `LICENSE` file for all the funky details.
+the [`LICENSE`](../../LICENSE) file for all the funky details.
 
 ## External Links
 
-[1](https://en.wikipedia.org/wiki/Sorting_algorithm#Comparison_of_algorithms)
-
+[^1]: Comparison of Sorting Algorithms (https://en.wikipedia.org/wiki/Sorting_algorithm#Comparison_of_algorithms)
+[^2]: Time and Space Complexity of Radix Sort (https://www.geeksforgeeks.org/radix-sort/)
 
 
 
