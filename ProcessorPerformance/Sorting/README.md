@@ -38,16 +38,16 @@ stuff in its own module, making it easy to test and compare their performance.
 Check out these below performant algorithms [^4] in this section (well others **_stuck-off_** were not too performant in
 comparison hence were not considered for this test :beers:):
 
-|        **Name**        | **Best Case** |   **Average Case**    |             **Worst Case**              | **Memory** |     **Method**      | 
-|:----------------------:|:-------------:|:---------------------:|:---------------------------------------:|:----------:|:-------------------:|
-|      **Timsort**       |    **_n_**    |      **_nlogn_**      |               **_nlogn_**               |  _**n**_   | Insertion & Merging |
-|     **Merge Sort**     |  **_nlogn_**  |      **_nlogn_**      |               **_nlogn_**               |  **_n_**   |       Merging       |
-|     **Shell Sort**     |  **_nlogn_**  | **_n<sup>4/3</sup>_** |          **_n<sup>3/2</sup>_**          |  **_1_**   |      Insertion      |
-|     **Heap Sort**      |  **_nlogn_**  |      **_nlogn_**      |               **_nlogn_**               |  **_1_**   |      Selection      |
-|  ~~**Bubble Sort**~~   |    **_n_**    |  **_n<sup>2</sup>_**  |           **_n<sup>2</sup>_**           |  **_1_**   |     Exchanging      |
-| ~~**Insertion Sort**~~ |    **_n_**    |  **_n<sup>2</sup>_**  |           **_n<sup>2</sup>_**           |  **_1_**   |      Insertion      |
-|   ~~**Quick Sort**~~   |  **_nlogn_**  |      **_nlogn_**      |           **_n<sup>2</sup>_**           | **_logn_** |    Partitioning     |
-|   ~~**Tree Sort**~~    |  **_nlogn_**  |      **_nlogn_**      | **_n<sup>2</sup>_**<br> (balanced tree) |   **n**    |      Insertion      |
+|        **Name**        | **Best Case** |   **Average Case**    |         **Worst Case**          | **Memory** |     **Method**      | 
+|:----------------------:|:-------------:|:---------------------:|:-------------------------------:|:----------:|:-------------------:|
+|      **Timsort**       |    **_n_**    |      **_nlogn_**      |           **_nlogn_**           |  _**n**_   | Insertion & Merging |
+|     **Merge Sort**     |  **_nlogn_**  |      **_nlogn_**      |           **_nlogn_**           |  **_n_**   |       Merging       |
+|     **Shell Sort**     |  **_nlogn_**  | **_n<sup>4/3</sup>_** |      **_n<sup>3/2</sup>_**      |  **_1_**   |      Insertion      |
+|     **Heap Sort**      |  **_nlogn_**  |      **_nlogn_**      |           **_nlogn_**           |  **_1_**   |      Selection      |
+|  ~~**Bubble Sort**~~   |    **_n_**    |  **_n<sup>2</sup>_**  |       **_n<sup>2</sup>_**       |  **_1_**   |     Exchanging      |
+| ~~**Insertion Sort**~~ |    **_n_**    |  **_n<sup>2</sup>_**  |       **_n<sup>2</sup>_**       |  **_1_**   |      Insertion      |
+|   ~~**Quick Sort**~~   |  **_nlogn_**  |      **_nlogn_**      |       **_n<sup>2</sup>_**       | **_logn_** |    Partitioning     |
+|   ~~**Tree Sort**~~    |  **_nlogn_**  |      **_nlogn_**      | **_nlogn_**<br> (balanced tree) |   **n**    |      Insertion      |
 
 Source: [^1]
 
