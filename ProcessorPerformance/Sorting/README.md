@@ -7,11 +7,11 @@ enthusiast, you've come to the right place.
 ## Table of Contents
 
 - [Getting Started](#getting-started)
-- [Sorting Algorithms](#sorting-algorithms)
-- [Running the Tests](#running-performance-tests)
-- [What's Happening in the Processor?](#whats-happening-in-the-processor)
 - [Comparison of algorithms](#comparison-of-algorithms)
+- [Running the Tests](#running-the-test)
+- [What's Happening in the Processor?](#whats-happening-in-the-processor)
 - [Performance Numbers](#performance-numbers)
+- [Legend of Platforms tested upon](#legend)
 - [Contributing](#contributing)
 - [License](#license)
 - [External Links](#external-links)
@@ -30,58 +30,24 @@ To get the required Python packages, run this righteous command:
 pip install -r requirements.txt
 ```
 
-## Sorting Algorithms
+## Comparison of Sorting Algorithms
 
 We've got a bunch of sorting algorithms in our arsenal, and they're all ready to groove. Each algorithm struts its
 stuff in its own module, making it easy to test and compare their performance.
 
-Check out these below performant algorithms in this section (well others were not too performant in comparison :
-sunglasses:):
+Check out these below performant algorithms in this section (well others **_stuck-off_** were not too performant in
+comparison hence were not considered for this test :beers:):
 
-- Timsort
-- Merge Sort
-- Shell Sort
-- Heap Sort
-- Radix Sort
-
-<mark>**_As seed data this test has descending ordered list of 10M numbers which is required to be sorted in
-ascending order (which is the worst case scenario for these sorting algorithms)._**</mark>
-
-## Running Performance Tests
-
-When you're ready to roll, head over to the main folder i.e. `Sorting` and run this sweet command:
-
-```
-python calling_sorts.py > sorting_observations.txt
-```
-
-You'll see the algorithm in action, doing its thing and showing off its moves right there in the console. We'll give you
-the lowdown on execution time and other groovy metrics.
-
-## What's Happening in the Processor?
-
-Now, let's take a moment to appreciate the funky stuff happening in your computer's processor when we run these sorting
-algorithms. Brace yourself for a wild ride!
-
-1. **Fetching**: The processor fetches the instructions of the algorithm from memory and gets ready to rock.
-2. **Decoding**: The processor decodes those instructions into micro-operations, understanding what needs to be done.
-3. **Executing**: This is where the magic happens! The processor performs the actual sorting operations, comparing
-   elements, swapping them around, and getting everything in order.
-4. **Memory Access**: The processor fetches and stores data from memory, accessing the elements to be sorted.
-5. **Write Back**: After all the hard work, the processor writes back the sorted data to memory, making sure it's stored
-   properly.
-
-It's a funky dance of fetching, decoding, executing, memory access, and write back that keeps your algorithms grooving
-to the beat!
-
-## Comparison of Algorithms
-
-|    **Name**    | **Best Case** | **Average Case** | **Worst Case** | **Memory** |     **Method**      | 
-|:--------------:|:-------------:|:----------------:|:--------------:|:----------:|:-------------------:|
-|  **Timsort**   |    **_n_**    |   **_nlogn_**    |  **_nlogn_**   |  _**n**_   | Insertion & Merging |
-| **Merge Sort** |  **_nlogn_**  |   **_nlogn_**    |  **_nlogn_**   |  **_n_**   |       Merging       |
-| **Shell Sort** |  **_nlogn_**  |   **_n^4/3^_**   |  **_n^3/2^_**  |  **_1_**   |      Insertion      |
-| **Heap Sort**  |  **_nlogn_**  |   **_nlogn_**    |  **_nlogn_**   |  **_1_**   |      Selection      |
+|        **Name**        | **Best Case** | **Average Case** |         **Worst Case**         | **Memory** |     **Method**      | 
+|:----------------------:|:-------------:|:----------------:|:------------------------------:|:----------:|:-------------------:|
+|      **Timsort**       |    **_n_**    |   **_nlogn_**    |          **_nlogn_**           |  _**n**_   | Insertion & Merging |
+|     **Merge Sort**     |  **_nlogn_**  |   **_nlogn_**    |          **_nlogn_**           |  **_n_**   |       Merging       |
+|     **Shell Sort**     |  **_nlogn_**  |   **_n^4/3^_**   |          **_n^3/2^_**          |  **_1_**   |      Insertion      |
+|     **Heap Sort**      |  **_nlogn_**  |   **_nlogn_**    |          **_nlogn_**           |  **_1_**   |      Selection      |
+|  ~~**Bubble Sort**~~   |    **_n_**    |    **_n^2^_**    |           **_n^2^_**           |  **_1_**   |     Exchanging      |
+| ~~**Insertion Sort**~~ |    **_n_**    |    **_n^2^_**    |           **_n^2^_**           |  **_1_**   |      Insertion      |
+|   ~~**Quick Sort**~~   |  **_nlogn_**  |   **_nlogn_**    |           **_n^2^_**           | **_logn_** |    Partitioning     |
+|   ~~**Tree Sort**~~    |  **_nlogn_**  |   **_nlogn_**    | **_n^2^_**<br> (balanced tree) |   **n_**   |      Insertion      |
 
 Source: [^1]
 
@@ -111,14 +77,53 @@ original array after each digit has been sorted.
 
 Source: [^2]
 
+<mark>**_As seed data this test has descending ordered list of 10M numbers which is required to be sorted in
+ascending order (which is the worst case scenario for these sorting algorithms)._**</mark>
+
+## Running the Test
+
+When you're ready to roll, head over to the main folder i.e. `Sorting` and run this sweet command:
+
+```
+python calling_sorts.py > sorting_observations.txt
+```
+
+You'll see the algorithm in action, doing its thing and showing off its moves right there in the console. We'll give you
+the lowdown on execution time and other groovy metrics.
+
+## What's Happening in the Processor?
+
+Now, let's take a moment to appreciate the funky stuff happening in your computer's processor when we run these sorting
+algorithms. Brace yourself for a wild ride!
+
+1. **Fetching**: The processor fetches the instructions of the algorithm from memory and gets ready to rock.
+2. **Decoding**: The processor decodes those instructions into micro-operations, understanding what needs to be done.
+3. **Executing**: This is where the magic happens! The processor performs the actual sorting operations, comparing
+   elements, swapping them around, and getting everything in order.
+4. **Memory Access**: The processor fetches and stores data from memory, accessing the elements to be sorted.
+5. **Write Back**: After all the hard work, the processor writes back the sorted data to memory, making sure it's stored
+   properly.
+
+It's a funky dance of fetching, decoding, executing, memory access, and write back that keeps your algorithms grooving
+to the beat!
+
 ## Performance Numbers
 
-|    **Name**    | **Best Case** |   **Average Case**    |    **Worst Case**     | **Memory** |     **Method**      | 
-|:--------------:|:-------------:|:---------------------:|:---------------------:|:----------:|:-------------------:|
-|  **Timsort**   |    **_n_**    |      **_nlogn_**      |      **_nlogn_**      |  _**n**_   | Insertion & Merging |
-| **Merge Sort** |  **_nlogn_**  |      **_nlogn_**      |      **_nlogn_**      |  **_n_**   |       Merging       |
-| **Shell Sort** |  **_nlogn_**  | **_n<sup>4/3</sup>_** | **_n<sup>3/2</sup>_** |  **_1_**   |      Insertion      |
-| **Heap Sort**  |  **_nlogn_**  |      **_nlogn_**      |      **_nlogn_**      |  **_1_**   |      Selection      |
+|    **Name**    | **P#1** | **P#2** | **P#3** | **P#4** | **P#5** | 
+|:--------------:|:-------:|:-------:|:-------:|:-------:|:-------:|
+|  **Timsort**   |         |  0.06   |         |         |         |
+| **Merge Sort** |         |  31.29  |         |         |         |
+| **Shell Sort** |         |  45.96  |         |         |         |
+| **Heap Sort**  |         |  43.94  |         |         |         |
+| **Radix Sort** |         |  27.63  |         |         |         |
+
+### **Legend**
+
+| **Platform** | **Details**                                                                                                          |
+|--------------|----------------------------------------------------------------------------------------------------------------------|
+| P#1          | Intel i3 2375M @ 1.5GHz 2nd Generation 8G RAM Pop!_OS 22.04 LTS (Kernel: Linux 6.2.6-76060206-generic) (Python 3.10) |
+| P#2          | Intel i7 11800H @ 2.30GHz 16G RAM, Windows 11 Enterprise (version 22H2, OS Build 22621.1848) (Python 3.11.4)         |
+| P#3          | Intel i7 1165G7 11th Generation 32G RAM Windows 10 Enterprise (Python 3.11.3)                                        |
 
 ## Contributing
 
@@ -127,7 +132,7 @@ make your move:
 
 1. Fork this repository to your own GitHub account.
 2. Create a cool new branch for your changes.
-3. Make your groovy changes and commit them to your branch.
+3. Make your changes and commit them to your branch.
 4. Push your changes to your forked repository.
 5. Show us your moves by creating a pull request to merge your changes into the main repository.
 
@@ -142,6 +147,8 @@ the [`LICENSE`](../../LICENSE) file for all the funky details.
 
 [^1]: [Comparison of Sorting Algorithms](https://en.wikipedia.org/wiki/Sorting_algorithm#Comparison_of_algorithms)
 [^2]: [Time and Space Complexity of Radix Sort](https://www.geeksforgeeks.org/radix-sort/)
+[^3]: [See Sorting Algorithms Graphically](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
+[^4]: [Time Complexity](https://en.wikipedia.org/wiki/Time_complexity)
 
 
 
