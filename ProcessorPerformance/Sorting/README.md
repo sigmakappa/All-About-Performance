@@ -44,8 +44,8 @@ sunglasses:):
 - Heap Sort
 - Radix Sort
 
-**_As seed data this test has descending ordered list (1M numbers long) which is required to be sorted in ascending
-order (which is the worst case scenario for these sorting algorithms)._**
+<mark>**_As seed data this test has descending ordered list of 10M numbers which is required to be sorted in
+ascending order (which is the worst case scenario for these sorting algorithms)._**</mark>
 
 ## Running Performance Tests
 
@@ -76,12 +76,12 @@ to the beat!
 
 ## Comparison of Algorithms
 
-|    **Name**    | **Best Case** |   **Average Case**    |    **Worst Case**     | **Memory** |     **Method**      | 
-|:--------------:|:-------------:|:---------------------:|:---------------------:|:----------:|:-------------------:|
-|  **Timsort**   |    **_n_**    |      **_nlogn_**      |      **_nlogn_**      |  _**n**_   | Insertion & Merging |
-| **Merge Sort** |  **_nlogn_**  |      **_nlogn_**      |      **_nlogn_**      |  **_n_**   |       Merging       |
-| **Shell Sort** |  **_nlogn_**  | **_n<sup>4/3</sup>_** | **_n<sup>3/2</sup>_** |  **_1_**   |      Insertion      |
-| **Heap Sort**  |  **_nlogn_**  |      **_nlogn_**      |      **_nlogn_**      |  **_1_**   |      Selection      |
+|    **Name**    | **Best Case** | **Average Case** | **Worst Case** | **Memory** |     **Method**      | 
+|:--------------:|:-------------:|:----------------:|:--------------:|:----------:|:-------------------:|
+|  **Timsort**   |    **_n_**    |   **_nlogn_**    |  **_nlogn_**   |  _**n**_   | Insertion & Merging |
+| **Merge Sort** |  **_nlogn_**  |   **_nlogn_**    |  **_nlogn_**   |  **_n_**   |       Merging       |
+| **Shell Sort** |  **_nlogn_**  |   **_n^4/3^_**   |  **_n^3/2^_**  |  **_1_**   |      Insertion      |
+| **Heap Sort**  |  **_nlogn_**  |   **_nlogn_**    |  **_nlogn_**   |  **_1_**   |      Selection      |
 
 Source: [^1]
 
@@ -140,8 +140,8 @@ the [`LICENSE`](../../LICENSE) file for all the funky details.
 
 ## External Links
 
-[^1]: Comparison of Sorting Algorithms (https://en.wikipedia.org/wiki/Sorting_algorithm#Comparison_of_algorithms)
-[^2]: Time and Space Complexity of Radix Sort (https://www.geeksforgeeks.org/radix-sort/)
+[^1]: [Comparison of Sorting Algorithms](https://en.wikipedia.org/wiki/Sorting_algorithm#Comparison_of_algorithms)
+[^2]: [Time and Space Complexity of Radix Sort](https://www.geeksforgeeks.org/radix-sort/)
 
 
 
