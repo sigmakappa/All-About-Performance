@@ -1,4 +1,4 @@
-# All-About-Performance
+_# All-About-Performance
 
 Hey there, you performance-testing rockstar! Welcome to our awesome repository filled with experiments to test the
 limits of your apps and systems.
@@ -40,7 +40,7 @@ python Fibonacci_Recursion.py > results.txt
 ```
 
 Also, check out how fast different platforms can calculate the Fibonacci sequence using
-recursion [here](https://github.com/sigmakappa/All-About-Performance/blob/main/ProcessorPerformance/Fibonacci_Recursion/README.md).
+recursion [here](/ProcessorPerformance/Fibonacci_Recursion/README.md).
 
 ### [Flask API](/ServerPerformance/Flask_Application_Performance/README.md)
 
@@ -83,4 +83,4 @@ The MIT license is like a get-out-of-jail-free card for software, so go ahead an
 Frankenstein's monster of an app using our performance testing experiments? We won't judge. Just make sure you don't
 blame us if it all goes horribly wrong.
 
-Check out the `LICENSE` file for more info, but trust us, it's pretty straightforward.
+Check out the `LICENSE` file for more info, but trust us, it's pretty straightforward._

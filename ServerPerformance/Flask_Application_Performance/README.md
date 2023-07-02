@@ -1,8 +1,8 @@
 # Python Flask Web Server Performance Testing
 
-🚀 Welcome to the Python Flask Web Server Performance Testing repository!
+🚀 Welcome to the Python Flask Web Server Performance Testing Section!
 
-📈 This repository is dedicated to measuring and analyzing the performance of web servers built with Python Flask. Get
+📈 This section is dedicated to measuring and analyzing the performance of web servers built with Python Flask. Get
 ready to test your server's performance based on the hardware you are using!
 
 ## Table of Contents
@@ -75,13 +75,13 @@ as the Flask Application Server under test and the other as JMeter testing machi
    machine: `git clone https://github.com/sigmakappa/All-About-Performance.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Run the Flask
-   application [file here](https://github.com/sigmakappa/All-About-Performance/blob/main/ServerPerformance/Flask_Application_Performance/application.py)
+   application [file here](application.py)
    as:<br><br>
    ```
    python application.py > logs.txt
    ```
    This above would run the application as below:<br><br>
-   ![running the application](https://github.com/sigmakappa/All-About-Performance/blob/main/ServerPerformance/Flask_Application_Performance/files/running_application.png)
+   ![running the application](/files/running_application.png)
 
 ### B. On the Testing machine:
 
@@ -89,22 +89,22 @@ as the Flask Application Server under test and the other as JMeter testing machi
     * Have Java 11+ installed.
     * Download JMeter [here](https://jmeter.apache.org/download_jmeter.cgi)).
     * Load the
-      given [jmx file](https://github.com/sigmakappa/All-About-Performance/blob/main/ServerPerformance/Flask_Application_Performance/Test_Scripts/JMeter/JMeter_Test_Script.jmx)
+      given [jmx file](/Test_Scripts/JMeter/JMeter_Test_Script.jmx)
       in JMeter.
     * Change the target IP address here (as obtained in A.3 above):<br><br>
-      ![changing address and port](https://github.com/sigmakappa/All-About-Performance/blob/main/ServerPerformance/Flask_Application_Performance/files/changing_address_port.png)<br>
+      ![changing address and port](/files/changing_address_port.png)<br>
 
 2. The test details and benchmarked load in this test are as below:
     1. Pre-configured in the attached
-       JMeter [jmx file](https://github.com/sigmakappa/All-About-Performance/blob/main/ServerPerformance/Flask_Application_Performance/Test_Scripts/JMeter/JMeter_Test_Script.jmx)
+       JMeter [jmx file](/Test_Scripts/JMeter/JMeter_Test_Script.jmx)
        along-with as in the screenshot below:<br><br>
-       ![setting up test threads](https://github.com/sigmakappa/All-About-Performance/blob/main/ServerPerformance/Flask_Application_Performance/files/jmx_setting_up_threads.png)<br>
+       ![setting up test threads](/files/jmx_setting_up_threads.png)<br>
 
     2. APIs already configured:
         * **Fibonacci**: Takes a random number between 10 and 1000 as input and returns its corresponding Fibonacci
           Number (
           calculating Fibonacci number
-          using [Dictionaries](https://github.com/sigmakappa/All-About-Performance/blob/main/ServerPerformance/Flask_Application_Performance/Fibonacci_using_maps.py))
+          using [Dictionaries](Fibonacci_using_maps.py))
         * **isPrime**: Takes a random number between 1000 and 10000000 and returns whether the number is prime or not.
 
     3. 20,000 Users to start with.
@@ -114,7 +114,7 @@ as the Flask Application Server under test and the other as JMeter testing machi
 
 ## What happens when the test is run?
 
-![Request_Response](https://github.com/sigmakappa/All-About-Performance/blob/main/ServerPerformance/Flask_Application_Performance/files/Request_Response.jpg)<br>
+![Request_Response](/files/Request_Response.jpg)<br>
 
 Make sure to monitor system resource utilization during testing to identify any potential bottlenecks or resource
 limitations.
@@ -123,7 +123,7 @@ limitations.
 
 📊 Once you have completed the performance tests, it's time to dive into the data! Use the gathered information,
 including response times, throughput, and error rates, to assess the performance of your flask web server. Unleash the
-power of visualization tools like graphs and charts to uncover hidden insights, spot performance patterns, and optimize 
+power of visualization tools like graphs and charts to uncover hidden insights, spot performance patterns, and optimize
 your server like a true champion!
 
 ## Observations on different platforms
@@ -172,7 +172,7 @@ open an issue or submit a pull request. Let's collaborate and elevate this repos
 ## License
 
 📜 This repository is licensed under
-the [MIT License](https://github.com/sigmakappa/All-About-Performance/blob/56ecd708b5c022b966697e1e03971decca957fb2/LICENSE).
+the [MIT License](../../LICENSE).
 <br>You're free to use, modify, and distribute the code and
 associated documentation for your own web server performance testing needs.🚀🔥
 
