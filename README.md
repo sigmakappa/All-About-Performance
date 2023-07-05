@@ -1,4 +1,4 @@
-_# All-About-Performance
+# All-About-Performance
 
 Hey there, you performance-testing rockstar! Welcome to our awesome repository filled with experiments to test the
 limits of your apps and systems.
