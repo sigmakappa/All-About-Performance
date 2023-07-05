@@ -81,7 +81,7 @@ as the Flask Application Server under test and the other as JMeter testing machi
    python application.py > logs.txt
    ```
    This above would run the application as below:<br><br>
-   ![running the application](/files/running_application.png)
+   ![running the application](./files/running_application.png)
 
 ### B. On the Testing machine:
 
@@ -92,13 +92,13 @@ as the Flask Application Server under test and the other as JMeter testing machi
       given [jmx file](/Test_Scripts/JMeter/JMeter_Test_Script.jmx)
       in JMeter.
     * Change the target IP address here (as obtained in A.3 above):<br><br>
-      ![changing address and port](/files/changing_address_port.png)<br>
+      ![changing address and port](./files/changing_address_port.png)<br>
 
 2. The test details and benchmarked load in this test are as below:
     1. Pre-configured in the attached
        JMeter [jmx file](/Test_Scripts/JMeter/JMeter_Test_Script.jmx)
        along-with as in the screenshot below:<br><br>
-       ![setting up test threads](/files/jmx_setting_up_threads.png)<br>
+       ![setting up test threads](./files/jmx_setting_up_threads.png)<br>
 
     2. APIs already configured:
         * **Fibonacci**: Takes a random number between 10 and 1000 as input and returns its corresponding Fibonacci
@@ -114,7 +114,7 @@ as the Flask Application Server under test and the other as JMeter testing machi
 
 ## What happens when the test is run?
 
-![Request_Response](/files/Request_Response.jpg)<br>
+![Request_Response](./files/Request_Response.jpg)<br>
 
 Make sure to monitor system resource utilization during testing to identify any potential bottlenecks or resource
 limitations.
