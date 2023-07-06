@@ -81,7 +81,6 @@ def getSystemInfo():
             memoryTable.add_row([key, memory[key]])
 
         print(memoryTable)
-
         # return json.dumps(general)
 
     except Exception as e:
