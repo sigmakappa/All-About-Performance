@@ -78,7 +78,7 @@ original array after each digit has been sorted.
 Source: [^2]
 
 <mark>**Seed data for this test has descending ordered list of 10M numbers which is required to be sorted in
-ascending order (which is the worst case scenario for these sorting algorithms)._**</mark>
+ascending order (which is the worst case scenario for these sorting algorithms).**</mark>
 
 ## Running the Test
 
