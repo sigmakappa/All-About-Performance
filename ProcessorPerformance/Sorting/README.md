@@ -85,7 +85,7 @@ ascending order (which is the worst case scenario for these sorting algorithms).
 When you're ready to roll, head over to the main folder i.e. `Sorting` and run this sweet command:
 
 ```
-python calling_sorts.py > sorting_observations.txt
+python calling_sorts.py > sorting_observations.data
 ```
 
 You'll see the algorithm in action, doing its thing and showing off its moves right there in the console. We'll give you
