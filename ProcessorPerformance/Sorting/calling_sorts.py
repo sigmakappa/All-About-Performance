@@ -1,6 +1,8 @@
-import os
-import time
 import gc
+import os
+import sys
+import time
+
 import psutil
 from prettytable import PrettyTable
 
@@ -13,10 +15,13 @@ import Algorithms.radix_sort as radix
 import Algorithms.heap_sort as heap
 import Algorithms.tree_sort as tree
 
-import SystemInfo
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(str(SCRIPT_DIR).split("All-About-Performance")[0] + "All-About-Performance")
+
+import SystemInfo as sysinfo
 
 # Getting System Info to console
-SystemInfo.getSystemInfo()
+sysinfo.getSystemInfo()
 
 numbers = []
 process = psutil.Process()
