@@ -112,19 +112,6 @@ print("Memory Status :", psutil.Process(os.getpid()).memory_info().rss / 1024 **
 performance_numbers['shell'] = shell_time
 print("Time for Shell sort:", shell_time)
 
-print("Start Radix sort")
-numbers_radix = numbers.copy()
-t0 = time.perf_counter()
-radix.radixSort(numbers_radix)
-t1 = time.perf_counter()
-print("Radix Sorted!")
-radix_time = round(t1 - t0, 2)
-del numbers_radix
-gc.collect()
-print("Memory Status :", psutil.Process(os.getpid()).memory_info().rss / 1024 ** 2, "MB")
-performance_numbers['radix'] = radix_time
-print("Time for Radix sort:", radix_time)
-
 print("Start Heap sort")
 numbers_heap = numbers.copy()
 t0 = time.perf_counter()
@@ -137,6 +124,19 @@ gc.collect()
 print("Memory Status :", psutil.Process(os.getpid()).memory_info().rss / 1024 ** 2, "MB")
 performance_numbers['heap'] = heap_time
 print("Time for Heap sort:", heap_time)
+
+print("Start Radix sort")
+numbers_radix = numbers.copy()
+t0 = time.perf_counter()
+radix.radixSort(numbers_radix)
+t1 = time.perf_counter()
+print("Radix Sorted!")
+radix_time = round(t1 - t0, 2)
+del numbers_radix
+gc.collect()
+print("Memory Status :", psutil.Process(os.getpid()).memory_info().rss / 1024 ** 2, "MB")
+performance_numbers['radix'] = radix_time
+print("Time for Radix sort:", radix_time)
 
 # print("Start Tree sort")
 # numbers_tree = numbers.copy()
