@@ -3,7 +3,8 @@ import platform
 import socket
 
 import psutil
-import wmi
+if 'window' in platform.system().lower(): 
+    import wmi
 from prettytable import PrettyTable
 
 

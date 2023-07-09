@@ -27,10 +27,13 @@ numbers = []
 process = psutil.Process()
 
 # Creating data
-for datum in range(10_000_000, 1, -1):
+data_volume = 10_000_000
+for datum in range(data_volume, 1, -1):
     numbers.append(datum)
 
 performance_numbers = {}
+
+print("Seed Data Size:", data_volume)
 
 print("Start Memory Status (Seed data loaded):", psutil.Process(os.getpid()).memory_info().rss / 1024 ** 2, "MB")
 
