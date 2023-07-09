@@ -27,7 +27,7 @@ numbers = []
 process = psutil.Process()
 
 # Creating data
-for datum in range(1_000_000, 1, -1):
+for datum in range(10_000_000, 1, -1):
     numbers.append(datum)
 
 performance_numbers = {}
