@@ -1,9 +1,15 @@
 import logging
 import platform
 import socket
+import sys
+
+import flask
+import numpy
 
 import psutil
-import wmi
+
+if 'window' in platform.system().lower():
+    import wmi
 from prettytable import PrettyTable
 
 
@@ -23,6 +29,19 @@ def get_size(bytes, suffix="B"):
 
 def getSystemInfo():
     try:
+        # Collecting Python and librray info
+        python = {}
+        python['Python'] = sys.version
+        python['Numpy'] = numpy.__version__
+        python['Flask'] = flask.__version__
+
+        pythonTable = PrettyTable(["", "Python and Libraries Information"])
+
+        for key in python:
+            pythonTable.add_row([key, python[key]])
+
+        print(pythonTable)
+
         general = {}
         cpu = {}
         memory = {}
