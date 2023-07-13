@@ -1,0 +1,68 @@
++--------+---------------------------------------------------+
+|        |          Python and Libraries Information         |
++--------+---------------------------------------------------+
+| Python | 3.10.6 (main, May 29 2023, 11:10:38) [GCC 11.3.0] |
+| Numpy  |                       1.24.3                      |
+| Flask  |                       2.3.2                       |
++--------+---------------------------------------------------+
++------------------+------------------------------------------------------------------+
+|                  |                       General Information                        |
++------------------+------------------------------------------------------------------+
+|      System      |                              Linux                               |
+|     Platform     |        Linux-6.2.6-76060206-generic-x86_64-with-glibc2.35        |
+| Platform-Version | #202303130630~1685473338~22.04~995127e SMP PREEMPT_DYNAMIC Tue M |
+| Platform-Release |                      6.2.6-76060206-generic                      |
+|   Architecture   |                              x86_64                              |
+|     Hostname     |                              pop-os                              |
++------------------+------------------------------------------------------------------+
++-------------------+-----------------+
+|                   | CPU Information |
++-------------------+-----------------+
+|     Processor     |      x86_64     |
+|   Physical_Cores  |        2        |
+|    Total_Cores    |        4        |
+|   Max Frequency   |    1500.0 Mhz   |
+|   Min Frequency   |    800.0 Mhz    |
+| Current Frequency |  1174.83175 Mhz |
++-------------------+-----------------+
++-------------------+--------------------+
+|                   | Memory Information |
++-------------------+--------------------+
+|    Total_Memory   |       7.55GB       |
+|  Available_Memory |       4.49GB       |
+|    Used_Memory    |       2.31GB       |
+| Total_Swap_Memory |      11.55GB       |
+|  Free_Swap_Memory |      11.55GB       |
+|  Used_Swap_Memory |      256.00KB      |
++-------------------+--------------------+
+Seed Data Size: 10000000
+Start Memory Status (Seed data loaded): 427.26953125 MB
+Start Inbuilt sort (TimSort)
+Inbuilt (TimSort) Sorted!
+Memory Status : 427.3046875 MB
+Time for inbuilt sort (TimSort) : 0.15
+Start Merge sort
+Merge Sorted!
+Memory Status : 426.75390625 MB
+Time for Merge sort: 168.61
+Start Shell sort
+Shell Sorted!
+Memory Status : 426.6328125 MB
+Time for Shell sort: 172.45
+Start Heap sort
+Heap Sorted!
+Memory Status : 426.60546875 MB
+Time for Heap sort: 288.65
+Start Radix sort
+Radix Sorted!
+Memory Status : 426.61328125 MB
+Time for Radix sort: 113.23
++-----------+-----------+
+| Algorithm | Run Times |
++-----------+-----------+
+|  timsort  |    0.15   |
+|   merge   |   168.61  |
+|   shell   |   172.45  |
+|    heap   |   288.65  |
+|   radix   |   113.23  |
++-----------+-----------+
