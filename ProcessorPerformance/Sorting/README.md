@@ -111,19 +111,19 @@ to the beat!
 
 |    **Name**    | **P#1** | **P#2** | **P#3** | **P#4** | **P#5** | 
 |:--------------:|:-------:|:-------:|:-------:|:-------:|:-------:|
-|  **Timsort**   |  0.16   |  0.06   |         |         |         |
-| **Merge Sort** | 170.98  |  31.29  |         |         |         |
-| **Shell Sort** | 178.81  |  45.96  |         |         |         |
-| **Heap Sort**  | 283.78  |  43.94  |         |         |         |
-| **Radix Sort** | 115.43  |  27.63  |         |         |         |
+|  **Timsort**   |  0.14   |  0.06   |         |         |         |
+| **Merge Sort** | 168.61  |  31.29  |         |         |         |
+| **Shell Sort** | 166.52  |  45.96  |         |         |         |
+| **Heap Sort**  | 281.02  |  43.94  |         |         |         |
+| **Radix Sort** | 113.23  |  27.63  |         |         |         |
 
 ### **Legend**
 
-| **Platform** | **Details**                                                                                                          |
-|--------------|----------------------------------------------------------------------------------------------------------------------|
-| P#1          | Intel i3 2375M @ 1.5GHz 2nd Generation 8G RAM Pop!_OS 22.04 LTS (Kernel: Linux 6.2.6-76060206-generic) (Python 3.10) |
-| P#2          | Intel i7 11800H @ 2.30GHz 16G RAM, Windows 11 Enterprise (version 22H2, OS Build 22621.1848) (Python 3.11.4)         |
-| P#3          | Intel i7 1165G7 11th Generation 32G RAM Windows 10 Enterprise (Python 3.11.3)                                        |
+| **Platform** | **Details**                                                                                                            |
+|--------------|------------------------------------------------------------------------------------------------------------------------|
+| P#1          | Intel i3 2375M @ 1.5GHz 2nd Generation 8G RAM Pop!_OS 22.04 LTS (Kernel: Linux 6.2.6-76060206-generic) (Python 3.10.6) |
+| P#2          | Intel i7 11800H @ 2.30GHz 16G RAM, Windows 11 Enterprise (version 22H2, OS Build 22621.1848) (Python 3.11.4)           |
+| P#3          | Intel i7 1165G7 11th Generation 32G RAM Windows 10 Enterprise (Python 3.11.3)                                          |
 
 ## Contributing
 

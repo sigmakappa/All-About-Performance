@@ -33,7 +33,7 @@ for datum in range(data_volume, 1, -1):
 
 performance_numbers = {}
 
-print("Seed Data Size:", data_volume)
+print("Seed Data Size:", f'{data_volume:,}')
 
 print("Start Memory Status (Seed data loaded):", psutil.Process(os.getpid()).memory_info().rss / 1024 ** 2, "MB")
 
