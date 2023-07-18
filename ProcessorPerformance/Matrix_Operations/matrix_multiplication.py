@@ -51,5 +51,6 @@ print("Matrix A :", mat_A_dim[0], "x", mat_A_dim[1])
 print("Matrix B :", mat_B_dim[0], "x", mat_B_dim[1])
 print("Time taken:", time, "second")
 
-
+# print("\n\n")
 print(np.show_config())
+# print("\n\n")
