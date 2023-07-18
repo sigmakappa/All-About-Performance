@@ -116,7 +116,7 @@ Fibonacci computational observations (by recursion) on different platforms are a
 | P #6         | Intel i3 1115G4 @ 3.00GHz 11th Generation 16G RAM Windows 11 Pro Version 22H2 OS build 22621.1265 (Python 3.9)                                            |
 | P #7         | Intel i7 8550U @ 1.80GHz 8th Generation 12G RAM, Arcolinux Zen Kernel Edition (courtesy [Aniruddha Kibey](https://github.com/kaniruddha)) (Python 3.11.3) |
 | P #8         | Intel i7 11800H @ 2.30GHz 16G RAM, Windows 11 Enterprise (version 22H2, OS Build 22621.1848) (Python 3.11.4)                                              |
-| P #9         | AMD Ryzen 7 3800XT @ 4.24GHz 32G RAM, Arcolinux Zen Kernel Edition (Python 3.11.3) | 
+| P #9         | AMD Ryzen 7 3800XT @ 4.24GHz 32G RAM, Arcolinux Zen Kernel Edition (courtesy [Aniruddha Kibey](https://github.com/kaniruddha)) (Python 3.11.3) | 
 ## **Fibonacci computational observations (by recursion) on same hardware but different Operating Systems**
 
 Yours truly has an old 2013 machine (still working, issues mainly in battery and hence the power backup). I used this to record how the Fibonacci
